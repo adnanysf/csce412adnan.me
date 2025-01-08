@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #d4d4d4;
+}
+
+.nav{
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #2A2929;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+
+}
+.nav button{
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    transition: 0.5s;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #2A2929;
+    margin-right: 13%;
+    translate: 0 5px;
+}
+.nav button:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.nav a{
+    margin: 0px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 0.25s;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav a:hover{
+    scale: 1.1;
+}
+
+
+
+.content{
+    display: flex;
+    height: 90%;
+    width: 100%;
+}
+
+.left{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A2929;
+    margin: 0px;
+}
+
+.pfp{
+    translate: 0 -60px;
+    margin-top: 30px;
+    width: 300px;
+    border-radius: 999px;
+}
+.name{
+    font-size: 50px;
+    color: white;
+    translate: 0 -30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+
+}
+
+.right{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.right h2{
+    margin-top: 100px;
+    font-size: 110px;
+}
+
+.right h2,h3{
+    margin-left: 40px;
+    transition: 1s;
+    cursor: default;
+}
+.right h3{
+    margin-left: 45px;
+    font-size: 25px;
+}
+
+.right h2:hover,h3:hover{
+    scale: 1.025;
+}
+
+.links{
+    display: flex;
+    gap: 40px;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.link{
+    border: 1px solid black;
+    width: 40%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 60px;
+    background-color: #d4d4d4;
+    text-decoration: none;
+    color: #2A2929;
+    transition: 1s;
+    opacity: 0.8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.link:hover{
+    scale: 1.1;
+    opacity: 1;
+}
+
+
+
+/* services.html */
+
+.snav{
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #2A2929;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+
+}
+.snav button{
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    transition: 0.5s;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #2A2929;
+    margin-right: 13%;
+    translate: 0 5px;
+}
+.snav button:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.snav a{
+    margin: 0px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 0.25s;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.snav a:hover{
+    scale: 1.1;
+}
+
+
+.scontent{
+    display: flex;
+    height: 90%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.scontent > h1{
+    margin-top: 40px;
+    justify-self: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    align-self: center;
+}
+
+.sboxes{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sbox{
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 50px;
+    width: 30%;
+    height: 40%;
+    background-color: #b1afaf;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* qualifications.html */
+.qnav{
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #2A2929;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+
+}
+.qnav button{
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    transition: 0.5s;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #2A2929;
+    margin-right: 13%;
+    translate: 0 5px;
+}
+.qnav button:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.qnav a{
+    margin: 0px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 0.25s;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.qnav a:hover{
+    scale: 1.1;
+}
+
+
+.qcontent{
+    display: flex;
+    height: 90%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.qresume{
+    margin: 0;
+    width: 50%;
+    /* border: 1px solid black; */
+    box-shadow: 1px 10px 10px black;
+    align-self: center;
+    border-radius: 30px;
+}
+
+.qright{
+    width: 50%;
+    height: 100%;
+}
+.qleft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 0px;
+}
+.qleft h1{
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 0;
+    align-self: center;
+}
+
+.qright{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qbox{
+    width: 90%;
+    margin-right: 100px;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #b1afaf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    flex-direction: column;
+}
+
+.dlinks{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.dlinks a{
+    margin: 0 30px;
+    text-decoration: none;
+    color: #2A2929;
+
+}
+.dlink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28%;
+    margin: 5px;
+    border-radius: 1px solid black;
+    border-radius: 20px;
+    background-color: #d4d4d4;
+    transition: 0.5s;
+
+}
+.dlink:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+/* projects.html */
+
+.pnav{
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #2A2929;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+
+}
+.pnav button{
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    transition: 0.5s;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #2A2929;
+    margin-right: 13%;
+    translate: 0 5px;
+}
+.pnav button:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.pnav a{
+    margin: 0px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 0.25s;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav a:hover{
+    scale: 1.1;
+}
+
+
+.ptitle{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.papp{
+    width: 100%;
+    height: 100%;
+}
+.pcontent{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+.pboxes{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pbox{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 30%;
+    border-radius: 55px;
+    background-color: #b1afb1;
+    margin-bottom: 10rem;
+    padding: 20px;
+}
+
+.gamelinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.gamelink{
+    background-color: #2A2929;
+    color: #b1afb1;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    margin-top: 10px;
+    padding: 5px;
+
+}
+
+.gamelink a{
+    text-decoration: none;
+    color: #b1afb1;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.gamelink:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+.sub{
+    margin-top: 0;
+}
+
+.pbox p:not(.sub){
+    margin-top: 10px;
+}

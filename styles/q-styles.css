@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #d4d4d4;
+    
+}
+
+
+
+.nav{
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #2A2929;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+
+}
+.nav a{
+    margin: 0px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 0.25s;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav a:hover{
+    scale: 1.1;
+}
+
+.qcontent{
+    display: flex;
+    height: 90%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.qresume{
+    margin: 0;
+    width: 50%;
+    /* border: 1px solid black; */
+    box-shadow: 1px 10px 10px black;
+    align-self: center;
+    border-radius: 30px;
+}
+
+.qright{
+    width: 50%;
+    height: 100%;
+}
+.qleft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 0px;
+}
+.qleft h1{
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 0;
+    align-self: center;
+}
+
+.qright{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qbox{
+    width: 90%;
+    margin-right: 100px;
+    height: 60%;
+    border-radius: 50px;
+    background-color: #b1afaf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
